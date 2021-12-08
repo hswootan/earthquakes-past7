@@ -3,7 +3,7 @@ import json
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
-filename = '/Users/hongwoo/Desktop/eq_past_7days/all_week.json'
+filename = '/Users/hongwoo/Desktop/eq_past_7days/data/all_week.json'
 with open(filename) as f:
     eq_past7_data = json.load(f)
 
